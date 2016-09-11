@@ -10,7 +10,7 @@ namespace ConsoleApplication
             //QuitSortClass obj = new QuitSortClass();
             //MergeSortClass obj = new MergeSortClass();
             //BinarySearchClass obj = new BinarySearchClass();
-            obj.print();
+            //obj.print();
 
         }
     }

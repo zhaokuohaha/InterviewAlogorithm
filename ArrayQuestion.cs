@@ -30,7 +30,7 @@ namespace ConsoleApplication
             int res = 0;
             foreach(char c in str){
                 int val = c-'a';
-                if(res & (1 << val)) return false;
+                if((res & (1 << val)) != 0) return false;
                 res |= (1 << val);
             }
             return true;
