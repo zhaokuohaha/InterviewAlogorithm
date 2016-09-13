@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace ConsoleApplication
 {
     public class Program
@@ -11,7 +12,6 @@ namespace ConsoleApplication
             //MergeSortClass obj = new MergeSortClass();
             //BinarySearchClass obj = new BinarySearchClass();
             //obj.print();
-
         }
     }
 }
