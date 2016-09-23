@@ -26,7 +26,7 @@ namespace ConsoleApplication{
             traversal(root);
         }
 
-        private void pre_traversal(Node node){
+        private void traversal(Node node){
             if(node == null) return;
             Console.WriteLine("-->" + node.Data);
             traversal(node.left);
