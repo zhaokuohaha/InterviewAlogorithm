@@ -8,11 +8,11 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
             //FiltForPrime obj = new FiltForPrime();
-            //QuitSortClass obj = new QuitSortClass();
+            QuitSortClass obj = new QuitSortClass();
             //MergeSortClass obj = new MergeSortClass();
             //BinarySearchClass obj = new BinarySearchClass();
             // BST obj = new BST();
-            KMPClass obj = new KMPClass();
+            //KMPClass obj = new KMPClass();
             obj.print();
         }
     }
