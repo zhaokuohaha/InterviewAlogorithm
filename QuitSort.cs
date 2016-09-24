@@ -11,7 +11,6 @@ namespace ConsoleApplication
                 Console.WriteLine(item);
             }
         }
-        int count = 0;
         public  void QuitSort(int[] array, int left, int right){
             if(left >= right) return;
             //划分数组 --> 挖坑填数
@@ -35,10 +34,12 @@ namespace ConsoleApplication
                     l++;
                 array[index] = array[l];
                 index = l;
+                //这里不能 l++  为什么呢?
                 while(l < r && array[r] > temp)
                     r--;
                 array[index] = array[r];
                 index=r;
+                //这里不能 r-- 跟上面 l++ 一个道理
             }
             array[index] = temp;
             return index;

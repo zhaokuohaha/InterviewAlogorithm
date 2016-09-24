@@ -4,7 +4,7 @@ namespace ConsoleApplication
 {
     public class MergeSortClass{
         public void print(){
-            int[] array =  new int[]{9,8,7,6,5,4,3,2,1};
+            int[] array =  new int[]{9,8,7,6,5,4,3,2,1,0};
             MergeSort(array,0,array.Length-1);
             foreach (int item in array)
             {
@@ -13,35 +13,38 @@ namespace ConsoleApplication
         }
 
 
-        public void MergeSort(int[] array, int first, int end){
-            if(first < end){
-                int mid = (first+end)/2;
-                MergeSort(array, first, mid);
-                MergeSort(array, mid+1, end);
-                MergeMethod(array, first, mid, end); //归并
+        public void MergeSort(int[] arr, int left, int right){
+            if(left < right){
+                int mid = (left + right) / 2;
+                MergeSort(arr, left, mid);
+                MergeSort(arr, mid+1, right);
+                MergeArray(arr, left, mid, right);
             }
         }
 
-        private void MergeMethod(int[] array, int first, int mid, int end){
-            int[] helper = new int[array.Length];
-            //copy需要排序的部分
-            for(int i=first; i<=end; i++)
-                helper[i] = array[i];
-            int helperLeft = first;
-            int helperRight = mid+1;
-            int current = first;
-            while (helperLeft <= mid && helperRight <= end)
-            {
-                if(helper[helperLeft] <= helper[helperRight]){
-                    array[current++] = helper[helperLeft++];
-                }else
-                {
-                    array[current++] = helper[helperRight++];
+        private void MergeArray(int[] arr, int left, int mid, int right){
+            int[] temp = new int[right-left+1];
+            int j = 0;
+            int l=left,m=mid+1,r=right;
+            //为什么这里要令 m=mid+1, 因为当要归并的段只有两个数时, mid=left
+            //这样的话,如果令 m=mid, 判断条件为 l<mid 的话, 下面这段循环便会跳过
+            //此时如果arr[left] > arr[right], 直接跳到后面复制数组, 那么返回的数据将是错的
+            //当然如果令 m=mid , 判断条件为 l <= mid 话更错, 因为arr[mid] 这个元素会被复制两次
+            while(l <= mid && m <= right){
+                if(arr[l] <= arr[m]){ //等于是保证排序的稳定性, 不会影响结果
+                    temp[j++] = arr[l++];
+                }else{
+                    temp[j++] = arr[m++];
                 }
             }
-            int remaining = mid - helperLeft;
-            for(int i=0; i<=remaining; i++){
-                array[current+i] = helper[helperLeft+i];
+            while(l <= mid){
+                temp[j++] = arr[l++];
+            }
+            while(m <= right){
+                temp[j++] = arr[m++];
+            }
+            for(int i=0; i<j; i++){
+                arr[left+i] = temp[i];
             }
         }
     }
