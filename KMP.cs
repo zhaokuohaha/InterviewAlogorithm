@@ -45,7 +45,7 @@ namespace ConsoleApplication{
             return -1;
         }
 
-        //求next数组
+        //求next数组  ---- 还是看不太懂
         private int[] GetNext(string mode){
             int[] next = new int[mode.Length];
             next[0] = -1;

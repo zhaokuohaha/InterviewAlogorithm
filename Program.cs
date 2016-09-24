@@ -13,7 +13,8 @@ namespace ConsoleApplication
             //BinarySearchClass obj = new BinarySearchClass();
             // BST obj = new BST();
             //KMPClass obj = new KMPClass();
-            DijkstraClass obj = new DijkstraClass();
+            //DijkstraClass obj = new DijkstraClass();
+            FloydClass obj = new FloydClass();
             obj.print();
         }
     }
