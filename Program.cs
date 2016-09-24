@@ -14,7 +14,8 @@ namespace ConsoleApplication
             // BST obj = new BST();
             //KMPClass obj = new KMPClass();
             //DijkstraClass obj = new DijkstraClass();
-            FloydClass obj = new FloydClass();
+            //FloydClass obj = new FloydClass();
+            PrimClass obj = new PrimClass();
             obj.print();
         }
     }
