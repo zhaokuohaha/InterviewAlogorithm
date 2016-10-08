@@ -15,7 +15,8 @@ namespace ConsoleApplication
             //KMPClass obj = new KMPClass();
             //DijkstraClass obj = new DijkstraClass();
             //FloydClass obj = new FloydClass();
-            PrimClass obj = new PrimClass();
+            //PrimClass obj = new PrimClass();
+            GCDClass obj = new GCDClass();
             obj.print();
         }
     }
