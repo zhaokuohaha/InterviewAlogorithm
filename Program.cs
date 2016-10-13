@@ -16,7 +16,9 @@ namespace ConsoleApplication
             //DijkstraClass obj = new DijkstraClass();
             //FloydClass obj = new FloydClass();
             //PrimClass obj = new PrimClass();
-            GCDClass obj = new GCDClass();
+            // GCDClass obj = new GCDClass();
+            // GetAllPalindromeClass obj = new GetAllPalindromeClass();
+            LongestUndupClass obj = new LongestUndupClass();
             obj.print();
         }
     }
