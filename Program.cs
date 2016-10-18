@@ -18,7 +18,8 @@ namespace ConsoleApplication
             //PrimClass obj = new PrimClass();
             // GCDClass obj = new GCDClass();
             // GetAllPalindromeClass obj = new GetAllPalindromeClass();
-            LongestUndupClass obj = new LongestUndupClass();
+            // LongestUndupClass obj = new LongestUndupClass();
+            ReConstructBinaryTreeClass obj = new ReConstructBinaryTreeClass();
             obj.print();
         }
     }
