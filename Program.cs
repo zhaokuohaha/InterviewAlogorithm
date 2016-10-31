@@ -23,6 +23,7 @@ namespace ConsoleApplication
             // ReConstructBinaryTreeClass obj = new ReConstructBinaryTreeClass();
             //ReverseLinkListClass obj = new ReverseLinkListClass();
             // SendMailClass obj = new SendMailClass();
+            NextPermutationClass obj = new NextPermutationClass();
             obj.print();
         }
     }
