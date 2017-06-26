@@ -25,8 +25,8 @@ namespace ConsoleApplication
             // SendMailClass obj = new SendMailClass();
             // NextPermutationClass obj = new NextPermutationClass();
             // JosephClass obj = new JosephClass();
-            ReverseIntClass obj = new ReverseIntClass();
-
+            // ReverseIntClass obj = new ReverseIntClass();
+            IdNumberVerifyClass obj = new IdNumberVerifyClass();
             obj.print();
         }
     }
