@@ -8,26 +8,26 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            //FiltForPrime obj = new FiltForPrime();
-            //QuitSortClass obj = new QuitSortClass();
-            // MergeSortClass obj = new MergeSortClass();
-            //BinarySearchClass obj = new BinarySearchClass();
-            // BST obj = new BST();
-            //KMPClass obj = new KMPClass();
-            //DijkstraClass obj = new DijkstraClass();
-            //FloydClass obj = new FloydClass();
-            //PrimClass obj = new PrimClass();
-            // GCDClass obj = new GCDClass();
-            // GetAllPalindromeClass obj = new GetAllPalindromeClass();
-            // LongestUndupClass obj = new LongestUndupClass();
-            // ReConstructBinaryTreeClass obj = new ReConstructBinaryTreeClass();
-            //ReverseLinkListClass obj = new ReverseLinkListClass();
-            // SendMailClass obj = new SendMailClass();
-            // NextPermutationClass obj = new NextPermutationClass();
-            // JosephClass obj = new JosephClass();
-            // ReverseIntClass obj = new ReverseIntClass();
-            // IdNumberVerifyClass obj = new IdNumberVerifyClass();
-            RedPacketsdistributeClass obj = new RedPacketsdistributeClass();
+            // var obj = new FiltForPrime();
+            // var obj = new QuitSortClass();
+            // var obj = new MergeSortClass();
+            // var obj = new BinarySearchClass();
+            // var obj = new BST();
+            // var obj = new KMPClass();
+            // var obj = new DijkstraClass();
+            // var obj = new FloydClass();
+            // var obj = new PrimClass();
+            // var obj = new GCDClass();
+            // var obj = new GetAllPalindromeClass();
+            // var obj = new LongestUndupClass();
+            // var obj = new ReConstructBinaryTreeClass();
+            // var obj = new ReverseLinkListClass();
+            // var obj = new SendMailClass();
+            // var obj = new NextPermutationClass();
+            // var obj = new JosephClass();
+            // var obj = new ReverseIntClass();
+            // var obj = new IdNumberVerifyClass();
+            var obj = new RedPacketsdistributeClass();
             obj.print();
         }
     }

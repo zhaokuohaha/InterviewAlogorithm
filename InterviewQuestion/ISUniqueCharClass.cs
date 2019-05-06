@@ -1,16 +1,13 @@
-//数组类题目
+
 using System;
 
 namespace ConsoleApplication
 {
-    public class ArrayQuestion{
-        public void print(){
-
-        }
-    }
-
     //确定一个字符串的所有字符是否完全不同 --> 假设只有26个字母
-    public class ISUniqueCharClass{
+    public class ISUniqueCharClass {
+        public void print() {
+            ISUniqueChar("aaaab");
+        }
         //用bool[]保存状态
         public bool ISUniqueChar(string str){
             if(str.Length > 256) return false;
