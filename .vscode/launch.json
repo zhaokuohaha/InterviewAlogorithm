@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/ConsoleTest.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.2/InterViewAlgorithm.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,
