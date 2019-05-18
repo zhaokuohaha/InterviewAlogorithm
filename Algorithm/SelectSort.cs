@@ -1,3 +1,7 @@
+/// <summary>
+///  先择排序算法
+/// </summary>
+
 using System;
 
 namespace ConsoleApplication

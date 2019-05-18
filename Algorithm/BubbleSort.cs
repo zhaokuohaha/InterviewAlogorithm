@@ -1,3 +1,6 @@
+/// <summary>
+/// 冒泡排序
+/// </summary>
 using System;
 
 namespace ConsoleApplication{

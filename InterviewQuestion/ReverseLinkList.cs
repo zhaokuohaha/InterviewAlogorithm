@@ -1,3 +1,6 @@
+/// <summary>
+/// 链表反转， 比较简单
+/// </summary>
 using System;
 
 namespace ConsoleApplication

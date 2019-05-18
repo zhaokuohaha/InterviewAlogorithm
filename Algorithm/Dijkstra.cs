@@ -1,3 +1,7 @@
+/// <summary>
+/// 迪杰斯特拉，查找全图最小路径算法
+/// 原理: 最优子路径存在。假设从S→E存在一条最短路径SE，且该路径经过点A，那么可以确定SA子路径一定是S→A的最短路径。证明：反证法。如果子路径SA不是最短的，那么就必然存在一条更短的'SA，从而SE路径也就不是最短，与原假设矛盾。
+/// </summary>
 using System;
 
 namespace ConsoleApplication
@@ -34,6 +38,12 @@ namespace ConsoleApplication
             //Dijkstra(6,g) : 11 11 8 6 4 3 0
         }
 
+        /// <summary>
+        /// 获取出发节点到每个节点的最短路径
+        /// </summary>
+        /// <param name="root">出发节点</param>
+        /// <param name="g">图</param>
+        /// <returns></returns>
         public int[] Dijkstra(int root, int[,] g){
             int height = g.GetLength(0);
             int width = g.GetLength(1);         //二维数组的宽和高， 理论上应该是相等的， 这里为了演示下C#取值的方法
@@ -44,7 +54,8 @@ namespace ConsoleApplication
                 dist[i] = g[root,i];
             dist[root] = 0;
             vis[root] = true;
-            for(int i=0; i<height; i++){//大循环表示需要刷新height轮, 每轮能够确定一个点的最小路径, 里面小循环一个找最小值, 一个更新路径
+            for(int i=0; i<height; i++){
+                //大循环表示需要刷新height轮, 每轮能够确定一个点的最小路径, 里面小循环一个找最小值, 一个更新路径
                 //min: 每次遍历过程的最小距离, u: 取得最小距离的点
                 //每次循环都需要把min初始化, 如果min放在总循环外边, 比如当第一次遍历之后min的值变得很小,  后面min就不会更新导致会出错, u倒不一定, min更新后u自然更新, 放在一起只是为了好理解
                 int u=root;

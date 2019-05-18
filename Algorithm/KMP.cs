@@ -1,3 +1,7 @@
+/// <summary>
+/// 字符串匹配 kMP 算法
+/// </summary>
+
 using System;
 
 namespace ConsoleApplication{

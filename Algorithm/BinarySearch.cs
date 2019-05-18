@@ -1,3 +1,8 @@
+/// <summary>
+/// 二分查找
+/// 前台: 数组使有序的。
+/// </summary>
+
 using System;
 
 namespace ConsoleApplication

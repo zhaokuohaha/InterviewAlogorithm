@@ -1,3 +1,7 @@
+/// <summary>
+/// 最大公约数
+/// </summary>
+
 using System;
 
 namespace ConsoleApplication

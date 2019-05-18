@@ -1,3 +1,8 @@
+/// <summary>
+/// 获取下一个全排列 --- 比当前数大的最小的数, 由下面4步组成
+/// 如 123 -> 213 
+/// </summary>
+
 using System;
 using System.Text;
 
@@ -9,7 +14,6 @@ namespace ConsoleApplication{
             Console.WriteLine(NextPermutation("abcd"));
         }
 
-        //目的: 下一个全排列 --- 比当前数大的最小的数, 由下面4步组成
         public string NextPermutation(string cur){
             StringBuilder sb = new StringBuilder(cur);
             int len,pos,expos;

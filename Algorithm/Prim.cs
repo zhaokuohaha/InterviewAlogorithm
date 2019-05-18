@@ -1,3 +1,7 @@
+/// <summary>
+/// 最短路径， prim 算法
+/// </summary>
+
 using System;
 
 namespace ConsoleApplication

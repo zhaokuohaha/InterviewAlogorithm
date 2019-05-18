@@ -1,3 +1,7 @@
+/// <summary>
+/// 快排 ， 挖坑填坑的过程
+/// </summary>
+
 using System;
 
 namespace ConsoleApplication
