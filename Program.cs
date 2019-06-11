@@ -12,7 +12,7 @@ namespace ConsoleApplication
             // var obj = new QuitSortClass();
             // var obj = new MergeSortClass();
             // var obj = new BinarySearchClass();
-            var obj = new BST();
+            // var obj = new BST();
             // var obj = new KMPClass();
             // var obj = new DijkstraClass();
             // var obj = new FloydClass();
@@ -28,6 +28,9 @@ namespace ConsoleApplication
             // var obj = new ReverseIntClass();
             // var obj = new IdNumberVerifyClass();
             // var obj = new RedPacketsdistributeClass();
+
+            // swordforoffer
+            var obj = new ScharpBase();
             obj.print();
         }
     }
