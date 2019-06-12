@@ -30,7 +30,11 @@ namespace ConsoleApplication
             // var obj = new RedPacketsdistributeClass();
 
             // swordforoffer
-            var obj = new ScharpBase();
+            // var obj = new ScharpBase();
+
+            var obj = SingletonDemo1.Instance; obj.val = 1;
+            var obj2 = SingletonDemo1.Instance; obj2.val = 2;
+
             obj.print();
         }
     }
