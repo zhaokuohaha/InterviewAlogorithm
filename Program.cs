@@ -37,7 +37,8 @@ namespace ConsoleApplication
 
             // var obj = new FindIn2dArray();
 
-            var obj = new WhiteSpaceReplace();
+            // var obj = new WhiteSpaceReplace();
+            var obj = new DescPrintLinklist();
 
             obj.print();
         }
