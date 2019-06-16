@@ -14,10 +14,12 @@ namespace ConsoleApplication {
             };
            System.Console.WriteLine(Find(array, 8));
            System.Console.WriteLine(Find(array, 0));
+           System.Console.WriteLine(Find(array, 13));
         }
 
         //从右上角开始找， 如果 val > num 说明 num 只能在 val 的 左边 （右边都大于val, 而上方已经遍历过） --> y --
         // 否则 num 只能在 val 下边, 同理， 上边小于val, 而右边已经遍历过）
+        // 返回 元素的位置（或出界的文职）
         public (int x, int y) Find(int[,] arr, int num){
             var x = 0;
             var y = arr.GetLength(1) -1;

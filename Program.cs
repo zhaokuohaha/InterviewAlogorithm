@@ -35,7 +35,9 @@ namespace ConsoleApplication
             // var obj = SingletonDemo1.Instance; obj.val = 1;
             // var obj2 = SingletonDemo1.Instance; obj2.val = 2;
 
-            var obj = new FindIn2dArray();
+            // var obj = new FindIn2dArray();
+
+            var obj = new WhiteSpaceReplace();
 
             obj.print();
         }
