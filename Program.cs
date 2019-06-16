@@ -38,7 +38,8 @@ namespace ConsoleApplication
             // var obj = new FindIn2dArray();
 
             // var obj = new WhiteSpaceReplace();
-            var obj = new DescPrintLinklist();
+            // var obj = new DescPrintLinklist();
+            var obj = new ConstructBinaryTree();
 
             obj.print();
         }
