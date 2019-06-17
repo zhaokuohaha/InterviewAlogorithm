@@ -39,7 +39,8 @@ namespace ConsoleApplication
 
             // var obj = new WhiteSpaceReplace();
             // var obj = new DescPrintLinklist();
-            var obj = new ConstructBinaryTree();
+            // var obj = new ConstructBinaryTree();
+            var obj = new QueueUseStack();
 
             obj.print();
         }
