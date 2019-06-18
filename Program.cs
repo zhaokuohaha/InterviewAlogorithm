@@ -40,8 +40,8 @@ namespace ConsoleApplication
             // var obj = new WhiteSpaceReplace();
             // var obj = new DescPrintLinklist();
             // var obj = new ConstructBinaryTree();
-            var obj = new QueueUseStack();
-
+            // var obj = new QueueUseStack();
+            var obj = new MinInRotationArray();
             obj.print();
         }
     }
