@@ -49,7 +49,8 @@ namespace ConsoleApplication
             // var obj = new FibonacciDemo();
             // var obj = new NumberOfOne();
             // var obj = new DoublePoweer();
-            var obj = new MaxNDigits();
+            // var obj = new MaxNDigits();
+            var obj = new DeleteLinkListNode();
             obj.print();
         }
     }

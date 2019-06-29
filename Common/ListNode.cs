@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ConsoleApplication{
     /// <summary>
@@ -9,6 +10,26 @@ namespace ConsoleApplication{
         public ListNode next{get;set;}
         public ListNode(int value){
             this.val = value;
+        }
+
+        public ListNode(int[] arr){
+            if(arr.Length < 1) return;
+            this.val = arr[0];
+            if(arr.Length < 2) return;
+            var p = this;
+            for(var i = 1; i<arr.Length; i++){
+                p.next = new ListNode(arr[i]);
+                p = p.next;
+            }
+        }
+
+        public void Print(){
+            var p = this;
+            while(p.next != null){
+                System.Console.Write($"{p.val} -> ");
+                p = p.next;
+            }
+            System.Console.WriteLine(p.val);
         }
     }
 }
