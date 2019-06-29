@@ -24,7 +24,7 @@ namespace ConsoleApplication {
         /// <param name="m"></param>
         /// <param name="n"></param>
         /// <returns></returns> 
-        private long FastPowInternal(long m, long n){
+        internal long FastPowInternal(long m, long n){
             long res = 1; // 2^0
             var bas = m; // 底数
             while(n > 0){

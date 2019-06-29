@@ -47,7 +47,9 @@ namespace ConsoleApplication
             // var obj = new QueueUseStack();
             // var obj = new MinInRotationArray();
             // var obj = new FibonacciDemo();
-            var obj = new NumberOfOne();
+            // var obj = new NumberOfOne();
+            // var obj = new DoublePoweer();
+            var obj = new MaxNDigits();
             obj.print();
         }
     }
