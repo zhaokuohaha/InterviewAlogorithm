@@ -51,7 +51,8 @@ namespace ConsoleApplication
             // var obj = new DoublePoweer();
             // var obj = new MaxNDigits();
             // var obj = new DeleteLinkListNode();
-            var obj = new ReoderOddEven();
+            // var obj = new ReoderOddEven();
+            var obj  = new KthToTail();
             obj.print();
         }
     }
