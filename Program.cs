@@ -46,7 +46,8 @@ namespace ConsoleApplication
             // var obj = new ConstructBinaryTree();
             // var obj = new QueueUseStack();
             // var obj = new MinInRotationArray();
-            var obj = new FibonacciDemo();
+            // var obj = new FibonacciDemo();
+            var obj = new NumberOfOne();
             obj.print();
         }
     }

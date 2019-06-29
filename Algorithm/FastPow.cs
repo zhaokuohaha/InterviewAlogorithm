@@ -17,8 +17,15 @@ namespace ConsoleApplication {
             System.Console.WriteLine($"{FastPowInternal(34, 6)} - {Math.Pow(34, 6)}");
         }
 
+        /// <summary>
+        /// 5 ^ 12 = 5 ^ 1100
+        /// 5*8 * 5*4 * 1 * 1
+        /// </summary>
+        /// <param name="m"></param>
+        /// <param name="n"></param>
+        /// <returns></returns> 
         private long FastPowInternal(long m, long n){
-            long res = 1;
+            long res = 1; // 2^0
             var bas = m; // 底数
             while(n > 0){
                 if((n & 1) == 1){
