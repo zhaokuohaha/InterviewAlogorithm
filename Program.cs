@@ -52,7 +52,8 @@ namespace ConsoleApplication
             // var obj = new MaxNDigits();
             // var obj = new DeleteLinkListNode();
             // var obj = new ReoderOddEven();
-            var obj  = new KthToTail();
+            // var obj  = new KthToTail();
+            var obj = new ReverseLinkList();
             obj.print();
         }
     }
