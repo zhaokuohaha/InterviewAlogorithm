@@ -13,7 +13,7 @@ namespace ConsoleApplication {
             var inorder = new [] {4,7,2,1,5,3,8,6};
 
             var note = Contruct(preorder, inorder);
-            printTree(note);
+            note.PrintPreOrder();
         }
 
         /// <summary>
@@ -56,12 +56,6 @@ namespace ConsoleApplication {
             return root;
         }
 
-        public static void printTree(TreeNode root) {
-            if (root != null) {
-                printTree(root.left);
-                System.Console.Write("-->" +root.val);
-                printTree(root.right);
-            }
-        }
+        
     }
 }
