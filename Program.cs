@@ -55,7 +55,8 @@ namespace ConsoleApplication
             // var obj  = new KthToTail();
             // var obj = new ReverseLinkList();
             // var obj =  new MergeLinklist();
-            var obj = new HasSubTree();
+            // var obj = new HasSubTree();
+            var obj = new MirroringTree();
             obj.print();
         }
     }
