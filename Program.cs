@@ -57,7 +57,8 @@ namespace ConsoleApplication
             // var obj =  new MergeLinklist();
             // var obj = new HasSubTree();
             // var obj = new MirroringTree();
-            var obj = new PrintMatrixClockwisely();
+            // var obj = new PrintMatrixClockwisely();
+            var obj = new StackWithMin();
             obj.print();
         }
     }
