@@ -4,7 +4,6 @@ using System.Collections.Generic;
 namespace ConsoleApplication {
     /// <summary>
     /// 包含min函数的stack实现
-    /// 
     /// 通过一个 min 辅助栈来完成
     /// </summary>
     public class StackWithMin : ITemplate
