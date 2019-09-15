@@ -59,7 +59,8 @@ namespace ConsoleApplication
             // var obj = new MirroringTree();
             // var obj = new PrintMatrixClockwisely();
             // var obj = new StackWithMin();
-            var obj = new IsPopOrder();
+            // var obj = new IsPopOrder();
+            var obj  = new PrintBinaryTree();
             obj.print();
         }
     }
