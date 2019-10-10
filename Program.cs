@@ -60,7 +60,8 @@ namespace ConsoleApplication
             // var obj = new PrintMatrixClockwisely();
             // var obj = new StackWithMin();
             // var obj = new IsPopOrder();
-            var obj  = new PrintBinaryTree();
+            // var obj  = new PrintBinaryTree();
+            var obj = new VerifyBstSequence();
             obj.print();
         }
     }
