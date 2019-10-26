@@ -61,7 +61,8 @@ namespace ConsoleApplication
             // var obj = new StackWithMin();
             // var obj = new IsPopOrder();
             // var obj  = new PrintBinaryTree();
-            var obj = new VerifyBstSequence();
+            // var obj = new VerifyBstSequence();
+            var obj = new FindTreePath();
             obj.print();
         }
     }
