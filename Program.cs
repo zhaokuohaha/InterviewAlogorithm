@@ -3,7 +3,7 @@
 
 namespace ConsoleApplication
 {
-    
+
     public class Program
     {
         public static void Main(string[] args)
@@ -63,7 +63,8 @@ namespace ConsoleApplication
             // var obj  = new PrintBinaryTree();
             // var obj = new VerifyBstSequence();
             // var obj = new FindTreePath();
-            var obj = new CloneComplexNode();
+            // var obj = new CloneComplexNode();
+            var obj = new BstToLinkList();
             obj.print();
         }
     }
