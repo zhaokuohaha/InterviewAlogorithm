@@ -62,7 +62,8 @@ namespace ConsoleApplication
             // var obj = new IsPopOrder();
             // var obj  = new PrintBinaryTree();
             // var obj = new VerifyBstSequence();
-            var obj = new FindTreePath();
+            // var obj = new FindTreePath();
+            var obj = new CloneComplexNode();
             obj.print();
         }
     }
