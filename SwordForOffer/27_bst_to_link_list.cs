@@ -86,6 +86,8 @@ namespace ConsoleApplication
             node14.left = node12;
             node14.right = node16;
 
+            node10.ShowTree();
+
             Console.Write("Before convert: ");
             printTree(node10);
             Console.WriteLine("null");
