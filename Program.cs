@@ -67,7 +67,8 @@ namespace ConsoleApplication
             // var obj = new BstToLinkList();
             // var obj = new PermutionString();
             // var obj = new MoreThanHalf();
-            var obj = new LeastNumbers();
+            // var obj = new LeastNumbers();
+            var obj = new MaxSumSubArray();
             obj.print();
         }
     }
