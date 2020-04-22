@@ -66,7 +66,8 @@ namespace ConsoleApplication
             // var obj = new CloneComplexNode();
             // var obj = new BstToLinkList();
             // var obj = new PermutionString();
-            var obj = new MoreThanHalf();
+            // var obj = new MoreThanHalf();
+            var obj = new LeastNumbers();
             obj.print();
         }
     }
