@@ -64,7 +64,8 @@ namespace ConsoleApplication
             // var obj = new VerifyBstSequence();
             // var obj = new FindTreePath();
             // var obj = new CloneComplexNode();
-            var obj = new BstToLinkList();
+            // var obj = new BstToLinkList();
+            var obj = new PermutionString();
             obj.print();
         }
     }
