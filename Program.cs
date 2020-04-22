@@ -65,7 +65,8 @@ namespace ConsoleApplication
             // var obj = new FindTreePath();
             // var obj = new CloneComplexNode();
             // var obj = new BstToLinkList();
-            var obj = new PermutionString();
+            // var obj = new PermutionString();
+            var obj = new MoreThanHalf();
             obj.print();
         }
     }
