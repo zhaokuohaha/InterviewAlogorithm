@@ -70,7 +70,9 @@ namespace ConsoleApplication
             // var obj = new LeastNumbers();
             // var obj = new MaxSumSubArray();
             // var obj = new NumOfOne();
-            var obj = new PrintMinNum();
+            // var obj = new PrintMinNum();
+            // var obj = new UglyNumber();
+            var obj = new FirstSingleChar();
             obj.print();
         }
     }
