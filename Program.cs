@@ -69,7 +69,8 @@ namespace ConsoleApplication
             // var obj = new MoreThanHalf();
             // var obj = new LeastNumbers();
             // var obj = new MaxSumSubArray();
-            var obj = new NumOfOne();
+            // var obj = new NumOfOne();
+            var obj = new PrintMinNum();
             obj.print();
         }
     }
