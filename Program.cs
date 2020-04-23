@@ -68,7 +68,8 @@ namespace ConsoleApplication
             // var obj = new PermutionString();
             // var obj = new MoreThanHalf();
             // var obj = new LeastNumbers();
-            var obj = new MaxSumSubArray();
+            // var obj = new MaxSumSubArray();
+            var obj = new NumOfOne();
             obj.print();
         }
     }
