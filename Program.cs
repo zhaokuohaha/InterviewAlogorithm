@@ -72,7 +72,8 @@ namespace ConsoleApplication
             // var obj = new NumOfOne();
             // var obj = new PrintMinNum();
             // var obj = new UglyNumber();
-            var obj = new FirstSingleChar();
+            // var obj = new FirstSingleChar();
+            var obj = new InversePairs();
             obj.print();
         }
     }
