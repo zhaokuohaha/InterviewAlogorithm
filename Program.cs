@@ -73,7 +73,8 @@ namespace ConsoleApplication
             // var obj = new PrintMinNum();
             // var obj = new UglyNumber();
             // var obj = new FirstSingleChar();
-            var obj = new InversePairs();
+            // var obj = new InversePairs();
+            var obj = new FirstCommonNode();
             obj.print();
         }
     }
