@@ -74,7 +74,8 @@ namespace ConsoleApplication
             // var obj = new UglyNumber();
             // var obj = new FirstSingleChar();
             // var obj = new InversePairs();
-            var obj = new FirstCommonNode();
+            // var obj = new FirstCommonNode();
+            var obj = new NumOfK();
             obj.print();
         }
     }
