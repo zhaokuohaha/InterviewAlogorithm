@@ -76,7 +76,8 @@ namespace ConsoleApplication
             // var obj = new InversePairs();
             // var obj = new FirstCommonNode();
             // var obj = new NumOfK();
-            var obj = new TreeDepth();
+            // var obj = new TreeDepth();
+            var obj = new NumApparOnce();
             obj.print();
         }
     }
