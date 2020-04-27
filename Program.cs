@@ -77,7 +77,8 @@ namespace ConsoleApplication
             // var obj = new FirstCommonNode();
             // var obj = new NumOfK();
             // var obj = new TreeDepth();
-            var obj = new NumApparOnce();
+            // var obj = new NumApparOnce();
+            var obj = new NumbersWithSum();
             obj.print();
         }
     }
