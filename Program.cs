@@ -79,7 +79,8 @@ namespace ConsoleApplication
             // var obj = new TreeDepth();
             // var obj = new NumApparOnce();
             // var obj = new NumbersWithSum();
-            var obj = new ReverseWord();
+            // var obj = new ReverseWord();
+            var obj = new DiceSum();
             obj.print();
         }
     }
