@@ -80,7 +80,8 @@ namespace ConsoleApplication
             // var obj = new NumApparOnce();
             // var obj = new NumbersWithSum();
             // var obj = new ReverseWord();
-            var obj = new DiceSum();
+            // var obj = new DiceSum();
+            var obj = new IsContinuous();
             obj.print();
         }
     }
