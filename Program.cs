@@ -35,7 +35,9 @@ namespace ConsoleApplication
             // var obj = new ReverseLinkListClass();
             // var obj = new ReverseIntClass();
             // var obj = new RedPacketsdistributeClass();
-
+            var obj = new LeastStorage();
+            
+            #region 剑指 offer
             /* ============ SwordForOffer ============ */
             // var obj = new ScharpBase();
             // var obj = SingletonDemo1.Instance; obj.val = 1;
@@ -81,7 +83,13 @@ namespace ConsoleApplication
             // var obj = new NumbersWithSum();
             // var obj = new ReverseWord();
             // var obj = new DiceSum();
-            var obj = new IsContinuous();
+            // var obj = new IsContinuous();
+            # endregion
+
+            #region Leetcode
+            // var obj = new Q128();
+            #endregion
+
             obj.print();
         }
     }
